@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_infos",
+  "info": {
+    "name": "Site Info",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site_name": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "vimeo": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
